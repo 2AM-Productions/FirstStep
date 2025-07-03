@@ -1,1 +1,1 @@
-# Start of something new
+# Start of something new 🦋
