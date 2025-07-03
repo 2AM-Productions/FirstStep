@@ -1,0 +1,41 @@
+:root{
+    --background: radial-gradient(circle,rgba(154, 42, 42, 0.888), rgb(106, 55, 130));
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+#sm-gradient-overlay {
+    background: var(--background);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+#heading{
+    padding:2%; 
+}
+#actual-heading{
+    padding-bottom: 15px;
+}
+#tanishq{
+    padding: 5%;
+}
+#yogya{
+    padding: 5%;
+}
+
+
+body {
+    padding-top: 15%;
+    padding: 15%;
+    font-family: ; 
+    color: rgba(242, 244, 246, 0.874);
+    
+}               
