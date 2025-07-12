@@ -1,4 +1,8 @@
-/* Reset and base styles */
+:root {
+    --graident: linear-gradient (
+        90deg, #efd5ff 0%, #515ada 100%
+    );
+}
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +11,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    /* background: linear-gradient(to bottom left, red, blue); */
+    background-color: #11131c;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -26,20 +31,23 @@ body {
 }
 
 /* Headings */
-h1 {
-    color: #333;
+.mainName {
     text-align: center;
     margin-bottom: 1.5rem;
     border-radius: 15px;
-    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    background-image: var(--graident);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+h2 {
+    color: #c19ab7;
+}
+
 /* Buttons */
 .btn {
-    background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+    background: linear-gradient(45deg, #36b0e3, #8dc6dd);
     color: white;
     border: none;
     padding: 12px 24px;
@@ -52,7 +60,7 @@ h1 {
 
 .btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(255, 107, 107, 0.3);
+    box-shadow: 0 8px 20px rgba(123, 154, 175, 0.3);
 }
 
 /* Cards */
